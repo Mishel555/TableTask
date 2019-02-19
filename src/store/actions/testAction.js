@@ -1,0 +1,1 @@
+export const testAction = body => ({type : 'asdasd', payload : body});

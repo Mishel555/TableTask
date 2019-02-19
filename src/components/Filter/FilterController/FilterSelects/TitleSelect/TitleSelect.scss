@@ -1,0 +1,19 @@
+.filterContainer {
+  .filter {
+    &>div.titleSelect {
+      float: left;
+      &>span {
+        display: inline-block;
+        margin-right: 5px;  
+        cursor: pointer;    
+      }
+      &>select {
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 3px;
+        width: 140px;
+        margin-left: 10px;
+      }
+    }
+  }
+}

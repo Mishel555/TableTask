@@ -1,0 +1,9 @@
+.filterIcn {
+  display: inline-block;
+  margin:25px 0px 0 10px;
+  color: #be14d0;
+  :before {
+    cursor: pointer;
+    display: block;
+  }
+}

@@ -1,0 +1,71 @@
+.filterContainer {
+  .filter {
+    .valueSelect {
+      display: inline-block;
+      position: relative;
+      border: 1px solid #afafaf;
+      border-radius: 3px;
+      margin-left: 10px;
+      &>span {
+        position: absolute;
+        right: 6px;
+        cursor: pointer;
+      }
+      input {
+        background-color: #fff;
+        border: none;
+        width: 138px;
+        padding: 4px;
+        margin: 2px;
+        outline: none;
+        &:disabled {
+          background-color: #b6caa1;
+          cursor: not-allowed;
+        }
+      }
+      &.values {
+        position: relative;
+        >ul {
+          position: absolute;
+          width: 100%;
+          left: 30px;
+          top: 30px;
+          max-height: 400px;
+          overflow-y: auto;
+          border: 1px solid #dedec7;
+          z-index: 1;
+          background-color: #ffffff;
+          border-radius: 3px;
+          padding: 6px;
+          line-height: 25px;
+          box-shadow: 0 0 8px 0px;
+          >li {
+            transition: 0.6s;
+            cursor: pointer;
+            &:hover {
+              background-color: #a9a992;
+              color: white;
+            }
+          }
+        }
+      }
+      .addedValuePanel {
+        >.addedValue {
+          border: 1px solid grey;
+          padding: 2px;
+          border-radius: 6px;
+          background-color: #e2e29d;
+          font-size: 11px;
+          color: #333;
+          margin: 5px;
+          >span {
+            cursor: pointer;
+            display: inline-block;
+            margin-left: 3px;
+            color: steelblue;
+          }
+        }
+      }
+    }
+  }
+}

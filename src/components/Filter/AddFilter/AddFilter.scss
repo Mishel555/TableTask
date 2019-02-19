@@ -1,0 +1,10 @@
+.filterContainer {
+  .addFilter {
+    color: #615959;
+    &>span {
+      display: inline-block;
+      margin-right: 5px;
+      cursor: pointer;      
+    }
+  }
+}
